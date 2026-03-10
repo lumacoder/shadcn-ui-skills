@@ -65,13 +65,11 @@
 
 ```bash
 # Cursor
-git clone https://github.com/YOUR_ORG/shadcn-ui-skills.git ~/.cursor/skills/shadcn-ui-skills
+git clone https://github.com/lumacoder/shadcn-ui-skills.git ~/.cursor/skills/shadcn-ui-skills
 
 # 或在项目内引用
-git clone https://github.com/YOUR_ORG/shadcn-ui-skills.git .cursor/skills/shadcn-ui-skills
+git clone https://github.com/lumacoder/shadcn-ui-skills.git .cursor/skills/shadcn-ui-skills
 ```
-
-> 将 `YOUR_ORG` 替换为你的 GitHub 用户名或组织名。
 
 确保 AI 助手能访问 `SKILL.md` 及 `rules/`、`cli.md`、`mcp.md` 等文档。
 
@@ -155,22 +153,6 @@ shadcn-ui-skills/
 
 ---
 
-## 📤 发布到 GitHub
-
-1. 在 GitHub 创建新仓库（如 `shadcn-ui-skills`）
-2. 添加远程并推送：
-
-```bash
-git remote add origin https://github.com/YOUR_ORG/shadcn-ui-skills.git
-git branch -M main
-git add .
-git commit -m "feat: initial release with README and MIT license"
-git push -u origin main
-```
-
-3. 在 README 中将 `YOUR_ORG` 替换为实际仓库路径
-
----
 
 ## 🎯 适用场景
 
